@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 'Aloha Magazine';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'Aloha Magazine Medium';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Semibold';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Light';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Light.woff') format('woff');
+  font-weight: 200;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Thin';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Extralight';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Regular.Extralight') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Black';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Regular.Black') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Bold';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Regular.Bold') format('woff');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Aloha Magazine Extrabold';
+  src: url('/fonts/AlohaMagazine-DemoVersion-Regular.Extrabold') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
 }

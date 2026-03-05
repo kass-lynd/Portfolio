@@ -1,0 +1,32 @@
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    transform: scale(1.05);
+}
+
+.plus-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.contact-button:hover .plus-icon {
+    transform: rotate(90deg);
+}
