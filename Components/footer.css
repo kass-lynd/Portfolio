@@ -92,7 +92,7 @@
 }
 
 .link-item:hover::after {
-    content: ' ✧';
+    content: '✧';
     color: #ffffff;
     font-size: 30;
     margin-left: 20px;
@@ -100,7 +100,7 @@
     transition: opacity 0.2s;
     opacity: 1;
     display: inline-block;
-    animation: rotateStar 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: rotateStar 0.8s cubic-bezier(0.1, 0, 0.2, 1);
 }
 
 @keyframes rotateStar {
@@ -149,6 +149,6 @@
 
 .copyright {
     color: #e0e0e0;
-    font-size: 1rem;
+    font-size: 30;
     letter-spacing: 1px;
 }

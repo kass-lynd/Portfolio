@@ -38,7 +38,7 @@
   font-family: 'Aloha Magazine Thin';
   src: url('/fonts/AlohaMagazine-DemoVersion-Thin.woff') format('woff');
   font-weight: 100;
-  font-style: normal;
+  font-style: thin;
 }
 
 @font-face {

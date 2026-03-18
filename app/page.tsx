@@ -1,9 +1,8 @@
-import ContactFooter from "@/Components/contactFooter";
-import Footer from "@/Components/footer";
-import HomeViewport from "@/Components/homeViewport";
-import ContactButton from "@/Components/contactButton";
+import ContactFooter from "@/components/contactFooter";
+import Footer from "@/components/footer";
+import HomeViewport from "@/components/homeViewport";
 import Image from "next/image";
-import Nav from "@/Components/nav";
+import Nav from "@/components/nav";
 
 export default function Home() {
     return (
